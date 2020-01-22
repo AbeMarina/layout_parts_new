@@ -1,5 +1,88 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+ .example1 {
+   text-align: center;
+   display: inline-block;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   width: 90px;
+   background-color: #e6f2ff;
+ }
+ .pearent {
+   text-align: center;
+ }
+.example2 {
+  text-align:center;
+  margin: auto;
+  width: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #e6f2ff;
+}
+
+/* ここからｑ6－2 */
+.pearent2 {
+display: table;
+text-align: center;
+/* vertical-align: middle; */
+}
+.inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.sample1 {
+/* display: table-cell; */
+display: inline-block;
+vertical-align: middle;
+/* text-align: center; */
+padding: 10px;
+background-color: #fff;
+}
+
+.pearent3 {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.sample2 {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.contents1 {
+  position: relative;
+  text-align: center;
+}
+.fix {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* height: 50%;
+  width: 50%; */
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #e6f2ff;
+  top: 50%;
+  /* height: 30px;
+  width: 110px;
+  padding: 10px; */
+}
+
+.contents2 {
+  position: relative;
+  /* text-align: center; */
+  /* width: 100%; */
+}
+.change {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #e6f2ff;
+}
 
 /* 回答はここに書いてね */
