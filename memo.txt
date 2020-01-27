@@ -1,0 +1,35 @@
+修正箇所言う
+q1
+ box-sizing外す
+ インデント修正30line （全体）
+
+ｑ2
+ インデント（ラスト消去）
+ rightpicture margin left bottomのみ
+ top-box,bottom-box 
+ bottombox無くす topboxが全体を包むものにする
+
+q3
+インデント修正
+ ＜tbody> thead tbodyをつける
+CSS 28line
+q3content th
+
+q4
+ top bottom class名避ける
+ ex)table-box
+ 要素同士の隙間はmargin使う
+ すべてのテーブルボックスにmarginをつけて最初or最後だけ消す
+ ☝first-childで
+
+q5
+ one-another消す
+ position commonboxにまとめる
+ 距離が近いところから
+ bottom:0
+出来れば数字中央にcommonboxに指定
+
+q6
+ クラス名連番はだめ
+＋CSSクラスごとに改行すると見やすくなるよ
+

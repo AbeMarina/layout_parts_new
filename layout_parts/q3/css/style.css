@@ -3,37 +3,37 @@
 /* 回答はここに書いてね */
 
 .q3-contents {
-  table-layout: fixed;
-  border: solid #dedede 1px;
-  width: 100%;
-  text-align: center;
+table-layout: fixed;
+border: solid #dedede 1px;
+width: 100%;
+text-align: center;
 }
 
 .q3-contents th {
-  background-color: #2244aa;
-  color: #fff;
-  font-size: 18px;
-  line-height: 26px;
+background-color: #2244aa;
+color: #fff;
+font-size: 18px;
+line-height: 26px;
 }
 
 .q3-contents td {
-  font-size: 16px;
-  line-height: 22px;
+font-size: 16px;
+line-height: 22px;
 }
 
 .q3-contents tr:nth-child(2n+1){
-  background-color: #ecf1f2;
+background-color: #ecf1f2;
 }
 
-.q3-contents td,th,td {
-  padding: 10px;
-  border: solid #dedede 1px;
+.q3-contents th {
+padding: 10px;
+border: solid #dedede 1px;
 }
 
 
 
 .q3-contents tr:last-child{
-  border-top: dashed #002 2px;
+border-top: dashed #002 2px;
 }
 
 /* 回答はここに書いてね */
