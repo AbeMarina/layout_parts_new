@@ -32,7 +32,7 @@ border: solid #dedede 1px;
 
 
 
-.q3-contents tr:last-child{
+.q3-contents tbody tr:last-child{
 border-top: dashed #002 2px;
 }
 
